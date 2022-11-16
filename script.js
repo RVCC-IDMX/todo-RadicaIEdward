@@ -39,7 +39,7 @@ function render() {
     const listElement = document.createElement('li');
     listElement.dataset.listId = list.id;
     listElement.classList.add('list-name');
-    listElement.innerText = list;
+    listElement.innerText = list.name;
     listsContainer.appendChild(listElement);
   });
 }
