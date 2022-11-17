@@ -64,6 +64,8 @@ function render() {
     renderTaskCount(selectedList);
     clearElement(tasksContainer);
     renderTasks(selectedList);
+    clearElement(tasksContainer);
+    renderTasks(selectedList);
   }
 }
 
